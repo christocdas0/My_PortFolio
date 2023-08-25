@@ -254,7 +254,7 @@ header .navbar ul li a:hover {
 
 .education .box-container .box span {
   font-size: 1.3rem;
-  background: #e3de13;
+  background-color: var(--green);
   color: black;
   border-radius: 5rem;
   padding: 0.5rem 2.5rem;
@@ -263,7 +263,7 @@ header .navbar ul li a:hover {
 
 .education .box-container .box h3 {
   font-size: 2rem;
-  color: #e3de13;
+  color :var(--green);
   padding-top: 1.5rem;
 }
 
@@ -386,9 +386,6 @@ header .navbar ul li a:hover {
   font-style: italic !important;
   color: #e3de13 !important;
 }
-/* .project_a_container{
-  background-color: #e3de13;
-} */
 .myProject_Main_Container {
   display: flex;
   flex-direction: column;
