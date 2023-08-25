@@ -391,7 +391,6 @@ header .navbar ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--green);
   margin: 3px;
   padding: 3px;
   border-radius: 10px;
