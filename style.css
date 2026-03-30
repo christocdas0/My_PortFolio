@@ -92,9 +92,11 @@ header {
   background: #1a1a1a;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-flow: column;
   text-align: center;
+  padding-top: 3rem;
+  overflow-y: auto;
 }
 
 header .user img {
@@ -102,6 +104,7 @@ header .user img {
   width: 17rem;
   border-radius: 50%;
   object-fit: cover;
+  margin-top: 0;
   margin-bottom: 1rem;
   border: 0.7rem solid var(--green);
 }
